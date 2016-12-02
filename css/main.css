@@ -272,7 +272,7 @@ body {
 /*////////////////////////////////////////////////////////////////////////
 //  06 - Latest works
 ///////////////////////////////////////////////////////////////////////*/
-
+/*
 #portfolio {
 	padding: 60px 0;
 }
@@ -296,7 +296,7 @@ body {
 
 .portfolio-item {
 	position: relative;
-}
+}*/
 
 /*////////////////////////////////////////////////////////////////////////
 //  06 - Latest works > isotope
@@ -481,14 +481,14 @@ ul.numbersList span{
 //  08 - github
 /////////////////////////////////////////////////////////////////////*/
 
-#github {
+#portfolio {
 	background: url(../img/bg/github-bg.jpg) no-repeat center center fixed;
 	background-size: cover;
 	color: #fff;
     padding: 60px 0;
 }
 
-#github .block-heading{
+#portfolio .block-heading{
 	rgba(9, 20, 39, 0.75);
 	margin-bottom: 0px;
 }
@@ -498,7 +498,7 @@ ul.numbersList span{
     margin-top: 20px;
 }
 
-#github .block-heading h1
+#portfolio .block-heading h1
 {
 	color: #fff;
  	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
@@ -508,12 +508,12 @@ ul.numbersList span{
 	width: 100%;
 }
 
-#github .testimonial {
+#portfolio .testimonial {
 	padding: 25px;
 	cursor: -webkit-grab;
 }
 
-#github .testimonial > img {
+#portfolio .testimonial > img {
 	border-radius: 100%;
 	margin-bottom: 15px;
 }
@@ -638,7 +638,7 @@ input[type="submit"]:hover {
 
 .social-box li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .social-box li a {
