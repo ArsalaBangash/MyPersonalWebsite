@@ -38,7 +38,6 @@
 
         <script src="js/main.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    	<script src="js/repo.js"></script>
 
     </head>
     <body>
@@ -61,9 +60,7 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
 									<li class="active"><a href="#header"><i class="fa fa-home"></i> <span>Home</span></a></li>
-									<!-- <li><a href="#services"><i class="fa fa-user"></i> About Me</a></li> -->
                                     <li><a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a></li>
-                                    <!-- <li><a href="#github"><i class="fa fa-github"></i> GitHub</a></li> -->
                                     <li><a href="#contact"><i class="fa fa-phone-square"></i> Contact</a></li>
                                 </ul>
                             </div>  <!-- /.navbar-collapse -->
@@ -99,18 +96,8 @@
                         <figcaption>
                             <h2 class="hidden-xs">Cosmic <span>Maneuver</span></h2>
                             <p class="icon-links">
-								<a href="https://github.com/ArsalaBangash/Cosmic-Maneuver"><i class="fa fa-github"></i></a>
-                            </p>
-                        </figcaption>
-                    </div>
-                </div>
-				<div class="element-item grid">
-                    <div class="effect-zoe">
-                        <img class="img-responsive" alt="Portfolio" src="img/work4.png">
-                        <figcaption>
-                            <h2 class="hidden-xs">NYC Crash Data Visualization<span></span></h2>
-                            <p class="icon-links">
-								<a id="nycModal" data-toggle="modal" data-target="#myModal"><i class="fa fa-github"></i></a>
+								<a href="https://github.com/ArsalaBangash/Cosmic-Maneuver" target="_blank"><i class="fa fa-github"></i></a>
+								<a href="https://play.google.com/store/apps/details?id=com.anyconfusionhere.spaceshipgame" target="_blank"><i class="fa fa-gamepad"></i></a>
                             </p>
                         </figcaption>
                     </div>
@@ -121,7 +108,18 @@
                         <figcaption>
                             <h2 class="hidden-xs">Mental <span>Math</span></h2>
                             <p class="icon-links">
-								<a id="mentalMathModal" data-toggle="modal" data-target="#myModal"><i class="fa fa-github"></i></a>
+								<a href="https://github.com/ArsalaBangash/MentalMath" target="_blank"><i class="fa fa-github"></i></a>
+                            </p>
+                        </figcaption>
+                    </div>
+                </div>
+				<div class="element-item grid">
+                    <div class="effect-zoe">
+                        <img class="img-responsive" alt="Portfolio" src="img/work4.png">
+                        <figcaption>
+                            <h2 class="hidden-xs">NYC Crash Data Visualization<span></span></h2>
+                            <p class="icon-links">
+								<a href="https://github.com/ArsalaBangash/NYC_Crash_Data_Visualization" target="_blank"><i class="fa fa-github"></i></a>
                             </p>
                         </figcaption>
                     </div>
@@ -132,11 +130,11 @@
                         <figcaption>
                             <h2 class="hidden-xs"><span>Statistical Analysis Project</span></h2>
                             <p class="icon-links">
-								<a href="src/Proposal.pdf"><i class="fa fa-file-text-o" target="_blank"></i></a>
+								<a href="src/Proposal.pdf" target="_blank"><i class="fa fa-file-text-o"></i></a>
 								<a href="https://arsalabangash.github.io/STA304ProjectForm/" target="_blank"><i class="fa fa-globe"></i></a>
-								<a href="src/Technical Report.pdf"><i class="fa fa-cogs" target="_blank"></i></a>
-								<a href="src/Final Report.pdf"><i class="fa fa-file-text" target="_blank"></i></a>
-								<a href="src/Presentation.pdf"><i class="fa fa-file-powerpoint-o" target="_blank"></i></a>
+								<a href="src/Technical Report.pdf" target="_blank"><i class="fa fa-cogs"></i></a>
+								<a href="src/Final Report.pdf" target="_blank"><i class="fa fa-file-text"></i></a>
+								<a href="src/Presentation.pdf" target="_blank"><i class="fa fa-video-camera"></i></a>
                             </p>
                         </figcaption>
                     </div>
@@ -235,13 +233,6 @@
         </script>
 
 		<script type="text/javascript">
-
-		$('#mentalMathModal').click(function() {
-			$('#githubContent').repo({ user:'ArsalaBangash', name: 'MentalMath' });
-		});
-		$('#nycModal').click(function() {
-			$('#githubContent').repo({ user:'ArsalaBangash', name: 'NYC_Crash_Data_Visualization' });
-		});
 	    </script>
 
 	</body>
