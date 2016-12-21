@@ -44,6 +44,7 @@ Text Domain: developer
 	src: local('Pacifico Regular'), local('Pacifico-Regular'), url("../fonts/pacifico.woff") format('woff');
 }
 
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -86,6 +87,10 @@ body {
 
 .block-heading p {
     font-size: 18px;
+}
+
+.paddyPower {
+	padding-top: 100px;
 }
 
 /*////////////////////////////////////////////////////////////////////////
